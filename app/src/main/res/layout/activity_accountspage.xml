@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45818e"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/changeusernametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Change Username"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Edit Username"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/changepasswordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Change Password"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/changepasswordtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Old Password"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/Change_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint=" Old Password"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/newpasswordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="New Password"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/New_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/newpasswordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Confirm New Password"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/Confirm_New_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm New Password"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/changebudgetheadertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Change Budget"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/changebudgettext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="New Budget"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/Change_Budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Change Budget"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp" />
+
+
+    <Button
+        android:id="@+id/Save_Info_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textColorHint="#45818e" />
+</LinearLayout>
+
